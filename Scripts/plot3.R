@@ -1,0 +1,5 @@
+plot(hs$datetime,hs$Sub_metering_1,type="l",col="black",xlab="",ylab="")
+lines(hs$datetime,hs$Sub_metering_2,col="red")
+lines(hs$datetime,hs$Sub_metering_3,col="blue")
+title(xlab="",ylab="Energy sub metering")
+legend("topright",lty="solid",col=c("black","Red","Blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),pt.cex = 0.5,cex=1)
